@@ -20,8 +20,7 @@
                 android:src="@drawable/pixel_google"
                 android:scaleType="fitXY"/>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextContent.Small.white"
                 android:padding="8dp"
                 android:text="@string/_6_photos"
                 android:gravity="center_vertical"
@@ -34,39 +33,25 @@
                 android:layout_gravity="bottom"/>
         </FrameLayout>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Black"
             android:layout_marginBottom="8dp"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:textSize="12sp"
-            android:text="@string/_75_00"
-            android:textColor="@android:color/black"/>
+            android:textSize="32sp"
+            android:text="@string/_75_00"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/hanya_tersedia_6_stok"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:text="@string/content_text"
             android:lineSpacingMultiplier="1"
             android:textColor="@android:color/black"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="8dp"
-            android:text="@string/spesifikasi"
-            android:textSize="12sp"/>
+            android:text="@string/spesifikasi" />
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,19 +63,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    style="@style/TextSpec.Field"
                     android:text="@string/display"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
-                    android:text="@string/content_specs_display"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:textColor="@android:color/black"/>
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_display"/>
 
             </TableRow>
 
@@ -99,18 +76,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:text="@string/size"
-                    android:layout_marginRight="@dimen/activity_vertical_margin"/>
+                    style="@style/TextSpec.Field"
+                    android:text="@string/size"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/content_specs_size"
-                    android:layout_weight="1"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:textColor="@android:color/black"/>
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_size" />
             </TableRow>
 
             <TableRow
@@ -118,19 +88,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    style="@style/TextSpec.Field"
                     android:text="@string/battery"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/content_specs_battery"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:textSize="14sp"
-                    android:textColor="@android:color/black"/>
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_battery" />
             </TableRow>
 
             <TextView
@@ -166,13 +128,8 @@
         </TableLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/beli"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:background="@android:color/holo_green_light"/>
+            style="@style/ButtonGeneral"
+            android:text="@string/beli" />
     </LinearLayout>
 </ScrollView>
 
